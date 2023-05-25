@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,200;1,500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #fff;
+}
+
+.header{
+    border-bottom: 3px solid black;
+}
+.header h2{
+    background-color: #ACBCFF;
+    color: black;
+    padding: 20px;
+    text-align: center;
+}
+
+.content .kiri{
+    float: left;
+    width: 20%;
+    padding: 30px;
+}
+.content .kanan{
+    float: right;
+    width: 80%;
+    padding: 30px;
+}
+
+.footer{
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #ACBCFF;
+    padding: 15px;
+    border-top: 3px solid black;
+}
+
+.footer p{
+    text-align: center;
+    color: black;
+    padding:3px;
+    background-color: #B799FF;
+    width: 500px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.content .kiri .card-kiri,.content .kanan .card-kanan{
+    background-color: #ACBCFF;
+    border: 2px solid black;
+    margin-top: 50px;
+    height: 400px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.content .kiri .card-kiri ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 7px;
+    border-radius: 10px;
+    
+    
+}
+
+.content .kiri .card-kiri ul li{
+    padding: 10px;
+    background-color: #B799FF;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.content .kiri .card-kiri ul{
+    list-style-type: none;
+    text-align: center;
+}
